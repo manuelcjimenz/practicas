@@ -4,7 +4,7 @@ package practicas_1_2_4;
 /**
 * Multiplo2.java
 * Crea un método dentro de la clase que se llame mostrarMultiplos2() especializado en mostrar los múltiplos de 2 hasta el TOPE. Recibe un valor tope como parámetro de entrada..
-* ajs. 2017.10.25
+* @author dam17-06 2017.10.25
 */
 
 

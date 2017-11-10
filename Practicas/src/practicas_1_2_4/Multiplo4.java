@@ -7,7 +7,7 @@ import java.util.Scanner;
 * Crea una sola clase llamada Multiplo4.
 * En main(), escribe la llamada:
 * mostrarMultiplos2(pedirTope());.
-* ajs. 2017.10.25
+* @author dam17-06 2017.10.25
 */
 
 

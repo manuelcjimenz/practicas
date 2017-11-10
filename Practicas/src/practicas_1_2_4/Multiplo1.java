@@ -1,11 +1,11 @@
 package practicas_1_2_4;
 
-import java.util.Scanner;
+
 
 /**
 * Multiplo1.java
 * Programa que escribe en pantalla los multiplos de 2 por debajo de un TOPE, 16.
-* ajs. 2017.10.25
+* @author dam17-06 2017.10.25
 */
 
 
@@ -14,7 +14,6 @@ public class Multiplo1 	{
 	public static void mostrarMultiplos1() {
 
 		// Declaración de variables
-		Scanner teclado = new Scanner(System.in);
 		final int TOPE = 16  ; 				// Constante, el máximo valor del múltiplo
 		int mult  ;							// Almacena el múltiplo calculado
 		int cont  ;							// Contador utilizado en el cálculo
@@ -30,7 +29,7 @@ public class Multiplo1 	{
 			System.out.println("\t  " +    '#' + (cont+1) + '\t' + mult);
 			++cont;
 		}
-		teclado.close();
+		
 	}
 		public static void main(String argumentos[]) {
 			mostrarMultiplos1();
