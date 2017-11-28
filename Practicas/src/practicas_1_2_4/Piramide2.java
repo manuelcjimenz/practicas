@@ -21,13 +21,13 @@ public class Piramide2 {
 
 		for(x2 = 0; x2 < tamano - x; x2++)
 		{
-		System.out.print(' '); //imprime los espacios
+		System.out.print(' '); // Imprime los espacios
 		}
 		for( ; x2 < (tamano + x) -1; x2++)
 		{
-		System.out.print('*'); //imprime los asteriscos
+		System.out.print('*'); // Imprime los asteriscos
 		}
-		System.out.println(); //cambio de lienea
+		System.out.println(); // Cambio de lienea
 		}
 		
 	// Devuelve el valor a String piramide2
@@ -38,6 +38,6 @@ public class Piramide2 {
 		
 	
 	public static void main(String arguments[]) {
-		piramide2(5);
+		piramide2(5);	// Llama al metodo
 	}
 	}

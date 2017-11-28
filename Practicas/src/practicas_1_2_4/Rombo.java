@@ -14,6 +14,7 @@ public class Rombo {
 		    
 			tamano = (tamano + 1) / 2;
 		
+		// Crea la parte de arriba del rombo, que es una piramide simple
 		 for (int i= 1; i<=tamano; i++){
 		           for (int espacios = tamano - i; espacios >0; espacios--)      
 		                System.out.print(' ');
@@ -21,6 +22,7 @@ public class Rombo {
 		                   System.out.print('*');
 		                    System.out.println("");
 		        }
+		 // Crea la parte de abajo del rombo, que es una piramide invertida
 		 for (int i= tamano - 1; i>=1; i--){
 		       for (int espacios = tamano - i; espacios >0; espacios--)      
 		                System.out.print(' ');
@@ -31,6 +33,6 @@ public class Rombo {
 		    } 
 		
 	public static void main(String arguments[]) {
-		rombo(8);
+		rombo(8);	// Llama al metodo
 	}
 	}

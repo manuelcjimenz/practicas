@@ -38,6 +38,6 @@ public class Factorial 	{
 	}
 	
 	public static void main(String argumentos[]) {
-		factorial(4);
+		factorial(4);	// Llama al metodo
 	}
 	}

@@ -33,7 +33,7 @@ public class Tablas_Multiplicar	{
 
 	
 		public static void main(String argumentos[]) {
-			calcularMostrarTabla(5);
+			calcularMostrarTabla(5);	// Llama al metodo
 		}
 		
 	}

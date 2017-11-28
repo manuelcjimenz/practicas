@@ -39,6 +39,6 @@ public class Ecuacion {
 	}
 	
 	public static void main(String arguments[]) {
-	evaluarDiscriminante(1,1,-1);
+	evaluarDiscriminante(1,1,-1);	// Llama al metodo
 	}
 }

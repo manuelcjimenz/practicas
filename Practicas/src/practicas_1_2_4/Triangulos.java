@@ -1,3 +1,4 @@
+
 package practicas_1_2_4;
 
 /**
@@ -14,7 +15,7 @@ public class Triangulos
 	{
 	
 		
-		
+	// Si cualquiera de los lados del triangulo es 0, devuelve false, si no, se cumple el else
 	if ((lado <= 0) || (lado2 <= 0) || (lado3 <= 0)) {
 		return false;	
 		
@@ -25,6 +26,7 @@ public class Triangulos
 	
 	public static void tipoTriangulo(int lado, int lado2, int lado3) {
 		
+		// Compara los lados para saber que tipo de triangul es
 		if (!esTriangulo(lado,lado2,lado3)) {
 			System.out.println("ERROR");
 		}
@@ -43,6 +45,6 @@ public class Triangulos
 	
 	
 		public static void main(String arguments[]) {
-			tipoTriangulo(1,1,1);
+			tipoTriangulo(1,1,1);	// Llama al metodo
 		}
 	}

@@ -26,6 +26,6 @@ public class Inicial 	{
 	}
 		
 	public static void main(String arguments[]) {
-		banner();
+		banner();	// Llama al metodo
 	}
 		}

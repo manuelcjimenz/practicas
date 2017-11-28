@@ -16,25 +16,24 @@ public class Salarios_Semanales {
 		
 		public static void calcularSalario(int horas) {
 
-
+			// Declaracion de variables
 			final int TOPE = 35;
 			int salario = 15;
 			int salarioextra = 22;
 			int salariototal = salario * horas;
 			int horasextra = horas - TOPE;
 			
+			// Si el numero de horas es menor que 34, se cumple la condicion, si no, se hace el else
 			if (horas <= 35) {
 				System.out.println("El salario es" + " " + salariototal);
 			}
+			
 				else {System.out.println("El salarios es" + " " + ((TOPE * salario) + (horasextra * salarioextra)) + " " + "euros");
 				
 			}
 			
-			
-			
-			
 		}
 			public static void main(String argumentos[]) {
-				calcularSalario(40);
+				calcularSalario(40);	// Llama al metodo
 			}
 	}

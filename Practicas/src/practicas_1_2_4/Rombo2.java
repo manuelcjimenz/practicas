@@ -11,10 +11,11 @@ public class Rombo2 {
 	
 	public static String rombo2 (int tamano) {
 		
+		// Transforma la variable int en String
 		String rombo2 = Integer.toString(tamano);
 	
 	
-		    
+		// Crea la parte de arriba del rombo, que es una piramide simple
 		 for (int i= 1; i<=tamano; i++){
 		           for (int espacios = tamano - i; espacios >0; espacios--)      
 		                System.out.print(' ');
@@ -22,6 +23,7 @@ public class Rombo2 {
 		                   System.out.print('*');
 		                    System.out.println("");
 		        }
+		// Crea la parte de abajo del rombo, que es una piramide invertida
 		 for (int i= 4; i>=1; i--){
 		       for (int espacios = tamano - i; espacios >0; espacios--)      
 		                System.out.print(' ');
